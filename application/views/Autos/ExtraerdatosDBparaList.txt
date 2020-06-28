@@ -1,0 +1,18 @@
+$carros[] = array('x' => 'x');
+
+$mocos = array(
+	'seco' => 'verde',
+	'mojado' => 'rojo',
+	'azul' => 'pegajoso'
+	);
+
+for ($i = 1; $i <= 10; $i++) {
+	array_push($carros, strval($i*$i));
+}
+
+$carros = array("FirSt" => 1, "SecOnd" => 4);
+$carros = array_change_key_case($carros, CASE_UPPER);
+
+print_r($carros);
+
+print_r($mocos);
